@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	padding-bottom: 61px;
+}
+a, li, button{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #696969;
+	text-decoration: none;
+}
+
+
+
+
+.contry_links{
+	list-style: none;
+}
+
+.contry_links li {
+	display: inline-block;
+	padding: 0px 15px;
+
+}
+
+.contry_links li a:hover {
+	color:black;
+	
+}
+
+button
+{
+
+	padding:  9px 25px;
+	background-color: white;
+	border:none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s; 
+	margin-left: 10px;
+}
+
+.login button
+{
+	color: black;
+}
+
+button:hover {
+	background-color:	#F5F5F5;
+}
+
+.main_photo
+{
+	width: 50%;
+	height: 550px;
+	display: block;
+    margin-right: auto;
+    margin-left: auto;
+	 border-radius: 10px;
+
+}
+
+.main
+{
+	padding: 30px  20px;
+	margin: 0 auto;
+	width: 98%;
+
+}
+article{
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+article h2{
+	background-color: #fff;
+}
+article h3{
+	background-color: #fff;
+}
+article p{
+	margin-top: 15px;
+	background-color: #fff;
+}
+
+.nav_button{
+	display: flex;
+justify-content: center;
+padding-bottom: 10px;
+}
+
+.img-preview
+{
+display: flex;
+justify-content: center;
+}
+
+.mini-img{
+	border-radius: 5px;
+	margin: 2px;
+
+}
