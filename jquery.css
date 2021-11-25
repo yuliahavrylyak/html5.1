@@ -1,0 +1,163 @@
+.textview{
+    width: 204px;
+    margin: 4px;
+    padding: 5px;
+    font-size: 20px;
+ }
+ 
+ .main{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+ }
+ 
+ 
+ 
+ .question
+ {
+     font-size: 25px;
+     margin: 40px 0;
+ }
+ 
+ .answer {
+     list-style-type: none;
+     padding-left: 0;
+     margin-left: 0;
+     text-decoration: none;
+ }
+ 
+ .answer li {
+     font-size: 18px;
+     border-radius: 5px;
+     background: #f1f1f1;
+     margin: 35px;
+     padding: 10px;
+     text-align: center;
+     cursor: pointer;
+ }
+ 
+ .answer li:hover {
+     background: #cecece;
+     font-weight: bold;
+ }
+ .result-image
+ {
+     margin-top: 30px;
+     width: 100px;
+     margin-bottom: 30px;
+ }
+ .result{
+     font-size:24px;
+ }
+ .reload
+ {
+     font-size:18px;
+     margin-top: 20px;
+     padding:  9px 25px;
+     background-color: white;
+     border:none;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: all 0.3s ease 0s; 
+     outline: none;
+     
+ }
+ .reload:hover
+ {
+     background: #cecece;
+ }
+ input[type= "text"]
+ {
+     margin-top: 40px;
+     border-radius: 5px;
+     border:none;
+     width: 300px;
+     height: 50px;
+     outline: none;
+ }
+ 
+ 
+ input[type = "radio"]
+ {
+     margin-top: 20px;
+     outline: none;
+ }
+ 
+ input[type = "reset"]
+ {
+     margin-top: 20px;
+     padding:  9px 25px;
+     background-color: white;
+     border:none;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: all 0.3s ease 0s; 
+     outline: none;
+ 
+ }
+ input[type = "reset"]:hover {
+     background-color: #D3D3D3;
+     outline: none;
+ }
+ 
+ .text {
+     margin-top: 60px; 
+     padding: 0px 10px 10px 0px;
+     width: 100%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+ }
+ 
+ .first-btn{
+     display: flex;
+     justify-content: center;
+     
+     margin-bottom: 30px;
+ 
+ }
+ 
+ 
+ .block_one{
+     margin-left: 20px;
+     width: 60px;
+     height: 60px;
+     background-color: red;
+ }
+ 
+ .block_two{
+     margin-left: 20px;
+ 
+     background-color: green;
+     width: 60px;
+     height: 60px;;
+ }
+ 
+ .table{
+     position: absolute;
+     left: 45%;
+ }
+ 
+ .table table{
+     width: 200px;
+ }
+ 
+ 
+ .ac{
+     margin-top:100px;
+     display: flex;
+     justify-content: center;
+ 
+ }
+ .auto_comp{
+     outline: black;
+     background-color: grey;
+     color: red;
+ }
+ 
+ .block3{
+     position: relative;
+     
+     margin-top: 10px;
+     margin-left: 20px;
+ }

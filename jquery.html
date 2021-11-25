@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lab7 JQuery</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="jquery.css">
+
+</head>
+<body>
+
+        <header class="banner">
+            <nav>
+              <div class="navbar">
+                <i class='bx bx-menu'></i>
+                <div class="logo"><a href="#">Lab6</a></div>
+                <div class="nav-links">
+                  <div class="sidebar-logo">
+                    <span class="logo-name">Lab6</span>
+                    <i class='bx bx-x' ></i>
+                  </div>
+                  <ul class="links">
+                    <li>
+                      <a href="#">First</a>
+                      <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                      <ul class="htmlCss-sub-menu sub-menu">
+                        <li class="more">
+                          <span><a href="#count">Count</a>
+                          <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                        </span>
+                          <ul class="more-sub-menu sub-menu">
+                            <li><a href="#count">Count</a></li>
+                            <li><a href="test.html">Test</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="jquery.html">Jquery</a></li>
+          
+                          </ul>
+                        </li>
+                        <li class="more">
+                          <span><a href="test.html">Test</a>
+                          <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                        </span>
+                          <ul class="more-sub-menu sub-menu">
+                            <li><a href="#count">Count</a></li>
+                            <li><a href="test.html">Test</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="jquery.html">Jquery</a></li>
+                          </ul>
+                        </li>
+                        <li class="more">
+                          <span><a href="registration.html">Reg</a>
+                          <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                        </span>
+                          <ul class="more-sub-menu sub-menu">
+                            <li><a href="#count">Count</a></li>
+                            <li><a href="test.html">Test</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="jquery.html">Jquery</a></li>
+                          </ul>
+                        </li>
+                        <li class="more">
+                          <span><a href="gallery.html">Gallery</a>
+                          <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                        </span>
+                          <ul class="more-sub-menu sub-menu">
+                            <li><a href="#count">Count</a></li>
+                            <li><a href="test.html">Test</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="jquery.html">Jquery</a></li>
+                          </ul>
+                        </li>
+                        <li class="more">
+                          <span><a href="calc.html">Calculator</a>
+                          <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                        </span>
+                          <ul class="more-sub-menu sub-menu">
+                            <li><a href="#count">Count</a></li>
+                            <li><a href="test.html">Test</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="jquery.html">Jquery</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Second</a>
+                      <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                      <ul class="htmlCss-sub-menu sub-menu">
+                        <li class="more">
+                          <span><a href="#count">Count</a>
+                          <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                        </span>
+                          <ul class="more-sub-menu sub-menu">
+                            <li><a href="#count">Count</a></li>
+                            <li><a href="test.html">Test</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="jquery.html">Jquery</a></li>
+                          </ul>
+                        </li>
+                        <li class="more">
+                          <span><a href="test.html">Test</a>
+                          <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                        </span>
+                          <ul class="more-sub-menu sub-menu">
+                            <li><a href="#count">Count</a></li>
+                            <li><a href="test.html">Test</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="jquery.html">Jquery</a></li>
+                          </ul>
+                        </li>
+                        <li class="more">
+                          <span><a href="registration.html">Reg</a>
+                          <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                        </span>
+                          <ul class="more-sub-menu sub-menu">
+                            <li><a href="#count">Count</a></li>
+                            <li><a href="test.html">Test</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="jquery.html">Jquery</a></li>
+                          </ul>
+                        </li>
+                        <li class="more">
+                          <span><a href="gallery.html">Gallery</a>
+                          <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                        </span>
+                          <ul class="more-sub-menu sub-menu">
+                            <li><a href="#count">Count</a></li>
+                            <li><a href="test.html">Test</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="jquery.html">Jquery</a></li>
+                          </ul>
+                        </li>
+                        <li class="more">
+                          <span><a href="calc.html">Calculator</a>
+                          <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                        </span>
+                          <ul class="more-sub-menu sub-menu">
+                            <li><a href="#count">Count</a></li>
+                            <li><a href="test.html">Test</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="jquery.html">Jquery</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Third</a>
+                      <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                      <ul class="htmlCss-sub-menu sub-menu">
+                        <li class="more">
+                          <span><a href="#count">Count</a>
+                          <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                        </span>
+                          <ul class="more-sub-menu sub-menu">
+                            <li><a href="#count">Count</a></li>
+                            <li><a href="test.html">Test</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="jquery.html">Jquery</a></li>
+                          </ul>
+                        </li>
+                        <li class="more">
+                          <span><a href="test.html">Test</a>
+                          <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                        </span>
+                          <ul class="more-sub-menu sub-menu">
+                            <li><a href="#count">Count</a></li>
+                            <li><a href="test.html">Test</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="jquery.html">Jquery</a></li>
+                          </ul>
+                        </li>
+                        <li class="more">
+                          <span><a href="registration.html">Reg</a>
+                          <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                        </span>
+                          <ul class="more-sub-menu sub-menu">
+                            <li><a href="#count">Count</a></li>
+                            <li><a href="test.html">Test</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="jquery.html">Jquery</a></li>
+                          </ul>
+                        </li>
+                        <li class="more">
+                          <span><a href="gallery.html">Gallery</a>
+                          <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                        </span>
+                          <ul class="more-sub-menu sub-menu">
+                            <li><a href="#count">Count</a></li>
+                            <li><a href="test.html">Test</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="jquery.html">Jquery</a></li>
+                          </ul>
+                        </li>
+                        <li class="more">
+                          <span><a href="calc.html">Calculator</a>
+                          <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                        </span>
+                          <ul class="more-sub-menu sub-menu">
+                            <li><a href="#count">Count</a></li>
+                            <li><a href="test.html">Test</a></li>
+                            <li><a href="calc.html">Calculator</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="jquery.html">Jquery</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+   
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id="textDiv" class= "text">
+    Довжина тіла від 30 до 70 см. Оперення рихле, забарвлене у сірі або рудуваті з пестринами тону, широкі крила та вершина недовгого хвоста заокруглені. Райдужна оболонка ока бурого кольору. Характерна заокруглена та велика голова без пір'євих «вушок», але з добре вираженим повним лицьовим диском та сильним, стиснутим з боків дзьобом. Оперені пальці мають гострі, загнуті донизу кігті.
+
+Населяють переважно лісові території у помірному та жаркому кліматичних поясах, охоче селяться в культурному ландшафті. У позагніздовий час ведуть поодинокий спосіб життя. Гніздяться окремими, віддаленими одна від одної парами у дуплах та гніздах інших птахів, тріщинах, нішах старих кам'яних будівель. У кладці 1−5 білих яйця в залежності від географічного положення (у південних регіонах розміри кладки менші) та чисельності гризунів. Насиджування починається з відкладання першого яйця та триває 4 тижні, насиджує самка. Пташенята починають літати у віці шести тижнів, але першу осінь тримаються разом з батьками.
+</div>
+<div class="first-btn">
+<button class="btn" id="showtext" onclick="slide()">slideToggle</button>
+<button class="btn" id="boldtext" onclick="bold()">makeBold</button>
+<button class="btn" id="colortext" onclick="iamblue()">makeBlue </button>
+</div>
+<div class="animate">
+
+<div class ="block_one" id="block" onclick="grown()"></div><br>
+<div class="block_two" id="block2" onclick="run()"></div>
+<div class="block3">
+<img id="imgblock"  src="img/img2.jpg" width="300px"  onmouseover="mouseopacity()"><br>
+<button class="btn" id="imgblock" onclick="opacity()">Opacity </button>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="content">
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Yuliia</td>
+            <td>Ukraine</td>
+        </tr>
+        <tr>
+            <td>Olga</td>
+            <td>Russia</td>
+        </tr>
+        <tr>
+            <td>Tomas</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td>Bogdan</td>
+            <td>Ukraine</td>
+        </tr>
+</table>
+<button class="btn" onclick="styleTable()">Style table</button>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="ac">
+    <input class="auto_comp" placeholder ="input Data"type="text" id="autocomplete" oninput="auto()">
+  </div>
+<br>
+<br>
+<br>
+<br>
+<footer class="footercontainer">
+    <div class=footer>
+      <a href="index.html">
+      <img src="img/logotype.jpg" alt="logotype">
+      </a>
+    </div>
+   <h2 class="footerheader">Lab6</h2>
+    <div class="footermenu">
+      <a href="#count">Count</a>
+      <a href="test.html">Test</a>
+    </div>
+
+    <div class="footercreatedby">
+     <p>© Created by </p>
+     <p class="Fes-31"> FES-31! </p>
+     <p> All rights Reserved</p>
+    </div>
+  </footer>
+
+
+
+<script src="script.js"></script>
+<script src="script2.js"></script>
+</body>
+</html>
