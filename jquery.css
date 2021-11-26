@@ -122,13 +122,13 @@
      margin-left: 20px;
      width: 60px;
      height: 60px;
-     background-color: red;
+     background-color: rgb(47, 114, 8);
  }
  
  .block_two{
      margin-left: 20px;
  
-     background-color: green;
+     background-color: rgb(241, 123, 212);
      width: 60px;
      height: 60px;;
  }
@@ -151,8 +151,8 @@
  }
  .auto_comp{
      outline: black;
-     background-color: grey;
-     color: red;
+     background-color: rgb(255, 2, 2);
+     color: rgb(255, 255, 255);
  }
  
  .block3{
