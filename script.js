@@ -23,7 +23,7 @@ function slide(){
  function styleTable() {
     var elems = $('table tr');
     elems.each(function(index) {
-        $(this).css({ backgroundColor: index % 2 === 0 ? 'orange' : 'red' });
+        $(this).css({ backgroundColor: index % 2 === 0 ? 'blue' : 'yellow' });
         if (index === elems.length - 1) {
             $(this).css({ color: 'white' });
         }
